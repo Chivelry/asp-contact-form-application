@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspWebUygulama", "AspWebUygulama\AspWebUygulama.csproj", "{653D94F6-DFA1-4064-BABB-92D8D1DC73CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{653D94F6-DFA1-4064-BABB-92D8D1DC73CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{653D94F6-DFA1-4064-BABB-92D8D1DC73CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{653D94F6-DFA1-4064-BABB-92D8D1DC73CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{653D94F6-DFA1-4064-BABB-92D8D1DC73CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C091839C-C181-4635-A0FC-88852CFCFE08}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Geçmiş";
+}
+
+@model IEnumerable<AspWebUygulama.Models.Contact>
+
+<h1>Geçmiş</h1>
+
+<table class="container-fluid">
+    <thead>
+        <tr>
+            <th>İletişim Id</th>
+            <th>Ad-Soyad</th>
+            <th>Telefon</th>
+            <th>E-mail</th>
+            <th>Departman Adı</th>
+            <th>Mesaj</th>
+            <th>Tarih</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ContactId</td>
+                <td>@item.FullName</td>
+                <td>@item.PhoneNumber</td>
+                <td>@item.Email</td>
+                <td>@item.Department</td>
+                <td>@item.Message</td>
+                <td>@item.Date</td>
+            </tr>
+        }
+</table>
+
