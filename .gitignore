@@ -1,52 +1,72 @@
-# Prerequisites
-*.d
+# Build output
+bin/
+obj/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Visual Studio working folder
+.vs/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Rider IDE
+.idea/
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Configuration files
+appsettings.*.json
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Node.js / npm related (if you have frontend stuff)
+node_modules/
+npm-debug.log
+
+# Log files
+*.log
+
+# Others
+*.db
+*.sqlite
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Paket yöneticileri
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# Coverage outputs
+coverage/
+
+# JetBrains Rider ve Resharper temp dosyaları
+.idea/
+*.sln.iml
+
+# dotenv files (if you use environment variables)
+.env
+.env.*
+
+# Backup files
+*.bak
+*.old
+*.tmp
+*.swp
+*.swn
+*.swo
+*.sml
+
+# VS Code workspace settings
+.vscode/
+
+# Git konfigürasyon dosyası
+.gitattributes
