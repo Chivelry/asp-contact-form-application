@@ -9,7 +9,6 @@ namespace AspWebUygulama.Models
         [Required(ErrorMessage = "Ad ve soyadınızı girmek zorunludur!")]
         public string FullName { get; set; } = null!;
         [Required(ErrorMessage = "Telefonunuzu girmek zorunludur!")]
-        [Phone][RegularExpression(@"^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$", ErrorMessage = "Geçerli bir telefon numarası girin!")]
         [DataType(DataType.PhoneNumber)]
         public string PhoneNumber {  get; set; } = null!;
         [Required(ErrorMessage = "E postanızı girmek zorunludur!")]

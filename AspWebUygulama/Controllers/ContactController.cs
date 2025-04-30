@@ -37,11 +37,5 @@ namespace AspWebUygulama.Controllers
 
             return View();
         }
-
-        public IActionResult Success()
-        {
-            return View();
-        }
-
     }
 }
